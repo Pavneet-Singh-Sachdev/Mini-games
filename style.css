@@ -1,0 +1,62 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  height:100vh;
+  display: flex;
+}
+
+section {
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex:1;
+  transition: all .5s;
+}
+
+section:hover {
+  flex:2;
+}
+a{
+  text-decoration: none;
+  transition: 200ms transform;
+}
+
+section a h1 {
+  background:rgba(0,0,0,0.6);
+  color:white;
+  padding: 12px 32px;
+
+}
+.simon{
+  background:url('img/simon.jpg');
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+a:hover{
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.xo{
+  background:url('img/xo.jpg');
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+
+.chess{
+  background:url('img/chess.jpg');
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
